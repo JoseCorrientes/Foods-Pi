@@ -1,0 +1,63 @@
+
+.cardImage {
+        width: 10vw;                              /* es w80 h 70 */
+        height: 14vh;
+        margin-left: 22px;  
+        border-radius: 20%;
+}
+
+.cardContainer {  
+                              /*ok*/
+        width: 225px;
+        height: 320px;
+        background-color: #dedded;
+        grid-template-rows: 10px 1fr 2fr 2fr 2fr 10px;
+        border-radius: 0% 0% 4% 4%;
+                
+}        
+
+.cardTitle {
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: lighter;
+        text-align: center;
+}
+
+.cardDiet {
+        font-size: 12px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: lighter;
+}
+
+
+.cardId {
+        display: block;
+        margin-left: 5px;
+        margin-top: 0px;
+        width: 60px;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        border-radius: 10px;
+
+} 
+
+.cardScore {
+        margin-left: 70px;
+        display: block;
+        width: 80px;
+        font-size: 18px;
+            
+}
+
+.containerCardScore{
+        display: flex;
+}
+
+.cardSpace {
+        width: 202px;
+        height: 48px;
+}

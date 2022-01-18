@@ -1,0 +1,41 @@
+body {
+   background-color: #F2E2BA; 
+}
+
+
+.mainContainerLanding {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background:url(../photos/LandingPage.jpg);
+    object-fit: cover;
+}
+
+
+.link {
+    display: block;
+    cursor: pointer;
+    border: 1px solid #cf9b19; 
+    border-radius: 18px;
+    width: 100px;
+    height: 28px;
+    color: white;
+    padding: 12px 20px 3px 20px  ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: #cf9b19;
+    }
+.link:hover {
+        background-color: black;
+        border: black;
+        color: #cf9b19;
+    }
+
+
